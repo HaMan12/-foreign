@@ -70,3 +70,68 @@ select { -webkit-appearance: none; border-radius: 0; }
 .form-radio--opacity { display: none; opacity: 0; visibility: hidden; }
 
 @media (min-width: 75em) { .form-radio--opacity { display: block; } }
+
+@media  (max-width:48em) {
+    .textset{
+        text-overflow: ellipsis;
+        overflow:hidden;
+        white-space: nowrap;-webkit-line-clamp:3;
+        -webkit-box-orient: vertical;
+    }
+}
+.swiper-button-prev{
+    background-image: url(../img/icon/旅遊arrow_L.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+}
+.swiper-button-next{
+    background-image: url(../img/icon/旅遊arrow_R.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+}
+.bg-control{
+    background-image:url(../img/pc/bg/bg-title3.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.bg-controls{
+    background-image: url(../img/pc/bg/bg-monkey.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 20px;
+    mix-blend-mode:multiply;
+
+}
+@media (max-width:768px) {
+    .bg-control{
+        background-image:url(../img/mobile/bg/防疫法令宣導bg.svg);
+        background-position:bottom;
+    }
+   .bg-controls{
+    background-image: url(../img/mobile/bg/猴痘預防注意事項bg.svg);
+    background-position: top;
+    padding-bottom:0px;
+     }
+}
+@media (max-width:48em){
+    .img-control{
+       width: 30%;
+       bottom: -60px;
+       left: 40%;
+    }
+}
+@media (max-width:37.5em){
+    .img-control{
+       width: 40%;
+       bottom: -60px;
+       left: 35%;
+    }
+}
+@media (max-width:25em){
+    .img-control{
+       width: 50%;
+       bottom: -40px;
+       left: 25%;
+    }
+}
+
